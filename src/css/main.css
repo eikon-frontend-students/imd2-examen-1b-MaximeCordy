@@ -75,6 +75,25 @@ video {
 
 /* 01. Sélecteurs CSS */
 
+h2,
+h3 {
+  font-family: PlayfairDisplay;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background: #fdf0d5;
+}
 /* 02. Centrer horizontalement */
 
 .link {
