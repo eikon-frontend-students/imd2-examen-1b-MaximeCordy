@@ -102,6 +102,8 @@ h3 {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .calltoaction {
@@ -111,8 +113,18 @@ h3 {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  margin: 0 auto;
 }
 
+.link-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 /* 03. Centrer verticalement */
 
 .card {
@@ -122,6 +134,8 @@ h3 {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -130,6 +144,65 @@ h3 {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding: 20 0;
 }
 
 /* 04. Intégration */
+.rond {
+  border-radius: 15px;
+  background: #fbbd3c;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+}
+.nom {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contentleft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  display: flex;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 76px;
+  width: auto;
+}
+
+.carte {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carte img {
+  border-radius: 20px 20px 0px 0px;
+}
